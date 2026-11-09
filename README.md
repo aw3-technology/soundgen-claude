@@ -29,10 +29,14 @@ time.
 
 ## What's inside
 
-- `skills/soundgen/` — the skill: when to use SoundGen, the rules that protect your credits, licensing,
-  and `scripts/soundgen.py`, a dependency-free command-line client for the REST API (needs an API key
-  from Settings → Integrations in `SOUNDGEN_API_KEY`).
-- `.mcp.json` — the SoundGen MCP server, connected by signing in.
+- `skills/soundgen/` — the skill: when to use SoundGen, the rules that protect your credits
+  (prices, request ids, recovery), licensing, and the full API, price and tool references.
+- `.mcp.json` — the SoundGen MCP server, connected by signing in. This plugin reads no API key or
+  other credential from your machine.
+
+The claude.ai download of the skill also includes `scripts/soundgen.py`, a dependency-free client
+for the REST API, for places where the connector isn't available (it needs an API key from
+Settings → Integrations).
 
 ## Licensing of what you make
 
