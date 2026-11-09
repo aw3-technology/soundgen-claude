@@ -1,0 +1,12 @@
+{
+  "name": "soundgen",
+  "description": "SoundGen for Claude: generate music and sound effects, split stems and build SoundGen Studio projects.",
+  "owner": { "name": "AW3 Technology, Inc.", "email": "will.schulz@aw3.tech" },
+  "plugins": [
+    {
+      "name": "soundgen",
+      "source": "./",
+      "description": "Make and edit music and sound with SoundGen: the SoundGen skill plus the SoundGen MCP server (sign in with your SoundGen account)."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "soundgen": {
+      "type": "http",
+      "url": "https://soundgen.ai/api/mcp-server"
+    }
+  }
+}
