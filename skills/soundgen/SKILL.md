@@ -27,8 +27,17 @@ Two ways in — use the first that is available:
    Code run `/mcp` and authenticate; in claude.ai add it under Connectors. The
    connection appears in their Settings → Integrations, where they can revoke it.
    Prefer these tools when present.
-2. **`scripts/soundgen.py`** — no dependencies, Python 3.8+. Needs an API key
-   in `SOUNDGEN_API_KEY`. Run `python3 scripts/soundgen.py --help`.
+2. **`scripts/soundgen.py`**, when this copy of the skill includes it (the
+   claude.ai upload does; the Claude Code plugin uses the connector instead) —
+   no dependencies, Python 3.8+, needs an API key in `SOUNDGEN_API_KEY`. Run
+   `python3 scripts/soundgen.py --help`.
+
+With the connector, each job below is one MCP tool: `generate_audio`,
+`edit_song`, `separate_stems`, `transcribe_speech`, `synthesize_voice`,
+`clone_voice`, `list_generations` / `get_generation` (recovery by request id),
+`get_user_credits`, and the studio tools (`list_projects`, `get_arrangement`,
+`add_track`, `add_midi_clip`, `add_clip`, `add_effect`, `apply_edits`). The
+script commands below are the same calls, for when there is no connector.
 
 If neither works (no key, or the sandbox cannot reach soundgen.ai), say so and
 offer the in-app route: the user signs in at soundgen.ai and asks the AI Agent
