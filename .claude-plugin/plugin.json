@@ -1,8 +1,13 @@
 {
   "name": "soundgen",
-  "version": "1.1.0",
+  "displayName": "SoundGen",
+  "version": "1.1.1",
   "description": "Make and edit music and sound with SoundGen: generate songs and sound effects, split stems, transcribe lyrics, clone voices, and build SoundGen Studio projects from Claude. Sign in with your SoundGen account; paid actions spend your SoundGen credits and are priced before they run.",
-  "author": { "name": "AW3 Technology, Inc.", "email": "will.schulz@aw3.tech", "url": "https://soundgen.ai" },
+  "author": {
+    "name": "AW3 Technology, Inc.",
+    "email": "will.schulz@aw3.tech",
+    "url": "https://soundgen.ai"
+  },
   "homepage": "https://soundgen.ai/api",
   "repository": "https://github.com/aw3-technology/soundgen-claude",
   "license": "MIT",
@@ -11,5 +16,13 @@
   "supportUrl": "https://soundgen.ai/contact",
   "privacyPolicyUrl": "https://soundgen.ai/privacy",
   "termsOfServiceUrl": "https://soundgen.ai/terms",
-  "keywords": ["music", "audio", "sound effects", "stems", "daw", "generation", "mcp"]
+  "keywords": [
+    "music",
+    "audio",
+    "sound effects",
+    "stems",
+    "daw",
+    "generation",
+    "mcp"
+  ]
 }

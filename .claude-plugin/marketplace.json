@@ -5,6 +5,7 @@
   "plugins": [
     {
       "name": "soundgen",
+      "displayName": "SoundGen",
       "source": "./",
       "description": "Make and edit music and sound with SoundGen: the SoundGen skill plus the SoundGen MCP server (sign in with your SoundGen account)."
     }
